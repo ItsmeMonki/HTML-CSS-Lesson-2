@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(216, 213, 38);
+    font-family: 'Athlone', sans-serif;
+}
+h1 {
+    color: black;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+h2 {
+    color: rgba(211, 24, 61, 0.9);
+    margin-left: 40%
+}
+.bigtxt {
+    font-size: 20px;
+}
+@font-face {
+	font-family: 'Athlone';
+	src: url('../fonts/athlone.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/athlone.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/athlone.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/athlone.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/athlone.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/athlone.svg#athlone') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: square;
+}
